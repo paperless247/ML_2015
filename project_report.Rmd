@@ -207,6 +207,11 @@ RF
 Random Forests predict better results. The overall accuracy of this model is 0.9986
 
 
+### Error estimation with cross validation for RF
+
+Using the model that I have trained, the out of error rate is expected to be less than 1%, as the accuracy of the model observed above is 99.86%.
+
+
 ## Submit Answers for the Assignment
 
 With the Test data set, I use the Random Forests model to predict the results
@@ -232,3 +237,5 @@ pml_write_files(predictions)
 ## Conclusion
 
 I can use Random Forests algorithm to create a very high accuracy model comparing to  Decision Tree algorithm.
+
+## Thank you for reading and grading!
